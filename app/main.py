@@ -2,7 +2,7 @@ from datetime import datetime  # DO NOT CHANGE THIS IMPORT
 from time import sleep
 
 
-def main():
+def main() -> None:
     while True:
         raw_timestamp = datetime.now()
         timestamp = str(raw_timestamp).split(".")[0]
